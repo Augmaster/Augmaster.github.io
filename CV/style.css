@@ -192,11 +192,6 @@ hr{
 }
 
 /* COMPETENCES */
-/* .competences{
-    justify-content: flex-start;
-    margin: 20px auto;
-    padding-left: 30px;
-} */
 .comp{
     display: flex;
     flex-flow: row wrap;
