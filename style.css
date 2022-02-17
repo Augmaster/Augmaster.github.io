@@ -78,3 +78,19 @@ body {
 .nav-link:visited{
   color: #fff;
 }
+
+/* PAGE CONTACT */
+.social:visited, .social:link{
+  text-decoration: none;
+  color: black;
+}
+.social:hover{
+  color: red;
+}
+.contact:visited, .contact{
+  text-decoration: none;
+  color: black;
+}
+.contact:hover{
+  color: red;
+}
