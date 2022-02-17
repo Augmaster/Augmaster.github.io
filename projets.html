@@ -16,6 +16,8 @@
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
 </head>
@@ -39,129 +41,198 @@
 
         <div class="container border-bottom pb-5" id="experiences">
             <h1 class="display-2 mb-4 py-4" id="scrollheading2">Projets</h1>
-            <!-- Premier groupe -->
-            <div class="card-group mb-2">
-                <div class="card text-black bg-light border-light" style="max-width: 25rem;">
-                    <img src="/img/museumOfCandy.png" class="card-img-top" alt="image de site web">
-                    <div class="card-header">
-                        <h5 class="card-title">Museum Of Candy</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">Site web one page pour un musée du sucre, avec un menu de
-                            navigation et une alternance d'images responsives.</p>
-                    </div>
-                    <div class="card-footer">
-                        <h5 class="card-title">Technologies Utilisées :</h5>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item">HTML / CSS</li>
-                        </ul>
-                        <a class="btn btn-danger btn-sm" style="width: 5rem" href="/Projects/MuseamOfCandy/index.html"
-                            target="_blank" role="button">Voir</a>
-                    </div>
 
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Projets WEB
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- Premier groupe -->
+                            <div class="card-group mb-2">
+                                <div class="card text-black bg-light border border-black" style="max-width: 25rem;">
+                                    <img src="/img/museumOfCandy.png" class="card-img-top" alt="image de site web">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Museum Of Candy</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Site web one page pour un musée du sucre, avec un menu de
+                                            navigation et une alternance d'images responsives.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h5 class="card-title">Technologies Utilisées :</h5>
+                                        <ul class="list-group mb-3">
+                                            <li class="list-group-item">HTML / CSS</li>
+                                        </ul>
+                                        <a class="btn btn-danger btn-sm" style="width: 5rem"
+                                            href="/Projects/MuseamOfCandy/index.html" target="_blank"
+                                            role="button">Voir</a>
+                                    </div>
+                                </div>
+
+                                <div class="card text-black bg-light border border-black"
+                                    style="max-width: 25rem; max-height: 54rem;">
+                                    <img src="/img/blogPhoto.png" class="card-img-top" alt="image de site web">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Blog Photo Simple</h5>
+                                    </div>
+                                    <div class="card-body ">
+                                        <p class="card-text">Site web one page style galerie d'un photographe,
+                                            responsive.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h5 class="card-title">Technologies Utilisées :</h5>
+                                        <ul class="list-group mb-3">
+                                            <li class="list-group-item">HTML / CSS</li>
+                                        </ul>
+                                        <a class="btn btn-danger btn-sm" style="width: 5rem"
+                                            href="/Projects/PhotoBlogSimple/photosite.html" target="_blank"
+                                            role="button">Voir</a>
+                                    </div>
+                                </div>
+
+                                <div class="card text-black bg-light border border-black"
+                                    style="max-width: 25rem; max-height: 54rem;">
+                                    <img src="/img/priceTable.png" class="card-img-top" alt="image de site web">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Tableaux de prix</h5>
+                                    </div>
+                                    <div class="card-body ">
+                                        <p class="card-text">Petit tableau de comparaison de prix simple pour mettre en
+                                            pratique
+                                            Flexbox, responsive.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h5 class="card-title">Technologies Utilisées :</h5>
+                                        <ul class="list-group mb-3">
+                                            <li class="list-group-item">HTML / CSS</li>
+                                        </ul>
+                                        <a class="btn btn-danger btn-sm" style="width: 5rem"
+                                            href="/Projects/PriceTableStarter/index.html" target="_blank"
+                                            role="button">Voir</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Deuxieme groupe -->
+                            <div class="card-group mb-2 justify-content-center">
+
+                                <div class="card text-black bg-light border border-black" style="max-width: 25rem;">
+                                    <img src="/img/scoreKeeper.png" class="card-img-top" alt="image de site web">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Compteur de score</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Compteur de score interactif. Tableau de score simple
+                                            ajustable
+                                            pour le
+                                            nombre de points gagnant pour des sports comme le ping-pong. Possibilité de
+                                            reinitialisé
+                                            et
+                                            de recommencer</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h5 class="card-title">Technologies Utilisées :</h5>
+                                        <ul class="list-group mb-3">
+                                            <li class="list-group-item">HTML / CSS</li>
+                                            <li class="list-group-item">BootStrap</li>
+                                            <li class="list-group-item">Javascript</li>
+                                        </ul>
+                                        <a class="btn btn-danger btn-sm" style="width: 5rem"
+                                            href="/Projects/ScoreKeeperApp/index.html" target="_blank"
+                                            role="button">Voir</a>
+                                    </div>
+                                </div>
+
+                                <div class="card text-black bg-light border border-black" style="max-width: 25rem;">
+                                    <img src="/img/ImageColorPicker.png" class="card-img-top" alt="image de site web">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Color Picture Photo</h5>
+                                    </div>
+                                    <div class="card-body ">
+                                        <p class="card-text">Site web simple, utilisant une photo et détaillant tous les
+                                            pixels
+                                            de
+                                            couleurs différents présents sur la photo sous forme de graphique.
+                                            Utilisation de
+                                            Jquerry et
+                                            de ChartJS.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h5 class="card-title">Technologies Utilisées :</h5>
+                                        <ul class="list-group mb-3">
+                                            <li class="list-group-item">HTML / CSS</li>
+                                            <li class="list-group-item">JavaScript</li>
+                                            <li class="list-group-item">JQuerry</li>
+                                            <li class="list-group-item">ChartJS</li>
+                                        </ul>
+                                        <a class="btn btn-danger btn-sm" style="width: 5rem"
+                                            href="/Projects/ImageColorPicker/index.html" target="_blank"
+                                            role="button">Voir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN DEUXIEME GROUPE -->
+                        </div>
+                        <!-- FIN ACCORDEON BODY -->
+                    </div>
+                    <!-- FIN DU COLLAPSE -->
                 </div>
-                <div class="card text-black bg-light border-light" style="max-width: 25rem; max-height: 54rem;">
-                    <img src="/img/blogPhoto.png" class="card-img-top" alt="image de site web">
-                    <div class="card-header">
-                        <h5 class="card-title">Blog Photo Simple</h5>
+                <!-- FIN ACORDEON ITEM -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Projets Python
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+
+                            <div class="card-group mb-2">
+                                <div class="card text-black bg-light border border-black" style="max-width: 25rem;">
+                                    <img src="/img/museumOfCandy.png" class="card-img-top" alt="image de site web">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Museum Of Candy</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Site web one page pour un musée du sucre, avec un menu de
+                                            navigation et une alternance d'images responsives.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h5 class="card-title">Technologies Utilisées :</h5>
+                                        <ul class="list-group mb-3">
+                                            <li class="list-group-item">HTML / CSS</li>
+                                        </ul>
+                                        <a class="btn btn-danger btn-sm" style="width: 5rem"
+                                            href="/Projects/MuseamOfCandy/index.html" target="_blank"
+                                            role="button">Voir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN DU CARD GROUP -->
+                        </div>
+                        <!-- FIN ACCORDEON BODY -->
                     </div>
-                    <div class="card-body ">
-                        <p class="card-text">Site web one page style galerie d'un photographe, responsive.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h5 class="card-title">Technologies Utilisées :</h5>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item">HTML / CSS</li>
-                        </ul>
-                        <a class="btn btn-danger btn-sm" style="width: 5rem"
-                            href="/Projects/PhotoBlogSimple/photosite.html" target="_blank" role="button">Voir</a>
-                    </div>
+                    <!-- FIN DU COLLAPSE -->
                 </div>
-                <div class="card text-black bg-light border-light" style="max-width: 25rem; max-height: 54rem;">
-                    <img src="/img/priceTable.png" class="card-img-top" alt="image de site web">
-                    <div class="card-header">
-                        <h5 class="card-title">Tableaux de prix</h5>
-                    </div>
-                    <div class="card-body ">
-                        <p class="card-text">Petit tableau de comparaison de prix simple pour mettre en pratique
-                            Flexbox, responsive.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h5 class="card-title">Technologies Utilisées :</h5>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item">HTML / CSS</li>
-                        </ul>
-                        <a class="btn btn-danger btn-sm" style="width: 5rem"
-                            href="/Projects/PriceTableStarter/index.html" target="_blank" role="button">Voir</a>
-                    </div>
-                </div>
+                <!-- FIN ACORDEON ITEM -->
             </div>
+            <!-- FIN ACCORDEON -->
 
-            <!-- Deuxieme groupe -->
-            <div class="card-group mb-2">
-                <div class="card text-black bg-light border-light" style="max-width: 25rem;">
-                    <img src="/img/scoreKeeper.png" class="card-img-top" alt="image de site web">
-                    <div class="card-header">
-                        <h5 class="card-title">Compteur de score</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">Compteur de score interactif. Tableau de score simple ajustable pour le
-                            nombre de points gagnant pour des sports comme le ping-pong. Possibilité de reinitialisé et
-                            de recommencer</p>
-                    </div>
-                    <div class="card-footer">
-                        <h5 class="card-title">Technologies Utilisées :</h5>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item">HTML / CSS</li>
-                            <li class="list-group-item">BootStrap</li>
-                            <li class="list-group-item">Javascript</li>
-                        </ul>
-                        <a class="btn btn-danger btn-sm" style="width: 5rem" href="/Projects/ScoreKeeperApp/index.html"
-                            target="_blank" role="button">Voir</a>
-                    </div>
-
-                </div>
-                <div class="card text-black bg-light border-light" style="max-width: 25rem; max-height: 54rem;">
-                    <img src="/img/blogPhoto.png" class="card-img-top" alt="image de site web">
-                    <div class="card-header">
-                        <h5 class="card-title">Blog Photo Simple</h5>
-                    </div>
-                    <div class="card-body ">
-                        <p class="card-text">Site web one page style galerie d'un photographe, responsive.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h5 class="card-title">Technologies Utilisées :</h5>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item">HTML / CSS</li>
-                        </ul>
-                        <a class="btn btn-danger btn-sm" style="width: 5rem"
-                            href="/Projects/PhotoBlogSimple/photosite.html" target="_blank" role="button">Voir</a>
-                    </div>
-                </div>
-                <div class="card text-black bg-light border-light" style="max-width: 25rem; max-height: 54rem;">
-                    <img src="/img/priceTable.png" class="card-img-top" alt="image de site web">
-                    <div class="card-header">
-                        <h5 class="card-title">Tableaux de prix</h5>
-                    </div>
-                    <div class="card-body ">
-                        <p class="card-text">Petit tableau de comparaison de prix simple pour mettre en pratique
-                            Flexbox, responsive.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h5 class="card-title">Technologies Utilisées :</h5>
-                        <ul class="list-group mb-3">
-                            <li class="list-group-item">HTML / CSS</li>
-                        </ul>
-                        <a class="btn btn-danger btn-sm" style="width: 5rem"
-                            href="/Projects/PriceTableStarter/index.html" target="_blank" role="button">Voir</a>
-                    </div>
-                </div>
-            </div>
         </div>
+        <!-- FIN DU CONTAINER PRINCIPALE -->
         <div class="container8">
             <footers class="py-3 my-4">
                 <ul class="nav justify-content-center border-bottom pb-3 my-3">
@@ -177,6 +248,10 @@
                 </footer>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/58ace44ccd.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
