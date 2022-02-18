@@ -1,5 +1,3 @@
-from tracemalloc import start
-from pyparsing import GoToColumn
 import yfinance as yf
 import streamlit as st
 import pandas as pd
