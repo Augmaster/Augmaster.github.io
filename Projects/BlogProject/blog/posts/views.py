@@ -14,6 +14,16 @@ def post(request, pk):
     return render(request, 'post.html', {'posts': posts})
 
 
+def newBlog(request):
+    if request.method == 'POST':
+        title = request.POST['title']
+        body = request.POST['body']
+
+        new_article = Post(title=title, body=body)
+        new_article.save
+    return render(request, 'newblog.html')
+
+
 def register(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -52,6 +62,7 @@ def login(request):
             return redirect('/')
         else:
             messages.info(request, 'Username or password invalid')
+            return render(request, 'login.html')
     else:
         return render(request, 'login.html')
 
