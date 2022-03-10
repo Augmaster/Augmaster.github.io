@@ -8,7 +8,7 @@ import json
 def index(request):
     if request.method == 'POST':
         city = request.POST['search']
-        api_key = "e258a3fc2306ad7cdf6c34a749647bdc"
+        api_key = "######"
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
         complete_url = base_url + "appid=" + api_key + "&q=" + city
         response = requests.get(complete_url)
