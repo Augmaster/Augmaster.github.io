@@ -1,0 +1,18 @@
+
+# Volume Controle with Hand recognition (MAC only)
+The project consist of controlling your volume using your hand as a wireless controler. (Works only on mac because the volume control is different on windows)
+
+## Technology Used
+
+- OpenCV
+- MediaPipe Hands
+- Python
+- Numpy
+- Maths
+- Osascript (MAC volume control)
+
+
+## Inspired by
+
+ - [Murtaza'z youtube video](https://www.youtube.com/watch?v=9iEPzbG-xLE&t=1845s)
+
