@@ -129,7 +129,7 @@ header .follow a:hover{
 }
 
 .home .image img{
-    width:100%;
+    width:80%;
 }
 
 .home .content{
@@ -413,8 +413,8 @@ header .follow a:hover{
 }
 
 .portfolio .box-container .box:hover img{
-    height:75%;
-    width:75%;
+    height:70%;
+    width:70%;
 }
 
 .portfolio .box-container .box h3{
