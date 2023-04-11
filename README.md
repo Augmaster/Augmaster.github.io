@@ -3,8 +3,7 @@ Meet me, Augustin, an aspiring data scientist, self-taught and highly motivated.
 
 
 ## Education
-
-### HarvardX (EdX) - CS109x: Introduction to Data Science with Python
+### [HarvardX (EdX) - CS109x: Introduction to Data Science with Python](https://www.harvardonline.harvard.edu/course/introduction-data-science-python)
 #### Grade: 100% - A
 #### Course Outline:
 - Linear Regression
@@ -16,7 +15,7 @@ Meet me, Augustin, an aspiring data scientist, self-taught and highly motivated.
 - Bootstrap, Confidence Intervals, and Hypothesis Testing
 - Capstone Project
 
-### HEC Montreal - Bachelor Business Administration / IT Specialisation
+### [HEC Montreal - Bachelor Business Administration / IT Specialisation](https://www.hec.ca/etudiants/mon-programme/baa/specialisations/specialisation-analyse-affaires-technologie-information.html)
 #### Grade: 3.0
 #### Program Outline:
 - Python Introduction
