@@ -247,7 +247,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
   - screenshot.png
   - docs/
 
