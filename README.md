@@ -44,3 +44,22 @@ This technology could be applied to various other applications, such as smart ho
 * Osascript to control the volume of the computer (MAC).
 
 ![image](https://user-images.githubusercontent.com/90472022/231293425-01346230-5a9e-474b-a7dc-37b338fa3a1e.png)
+
+### [Project 2 - Emotion detection Wine reviews](https://www.kaggle.com/augustinrenard/emotion-detection-wine-review/edit)
+#### Overview
+The goal of this project was to develop an emotion detection model to categorize wine reviews as positive, neutral, or negative. The dataset used was a wine review database containing thousands of reviews, and two models were utilized for the analysis: Vadors and Roberta. Both models are pre-trained on large datasets and have been shown to perform well in NLP tasks such as sentiment analysis.
+This project demonstrates the effectiveness of NLP techniques for emotion detection in wine reviews. The combination of lexicon-based and transformer-based models allowed for a comprehensive analysis of the emotional tone of the text. The high accuracy of the models suggests that they could be applied to other datasets with similar characteristics. Future work could involve exploring the use of additional models and fine-tuning the existing models to improve their performance.
+
+<img width="342" alt="image" src="https://user-images.githubusercontent.com/90472022/231913962-7cea7ff3-da50-43f4-bc4b-59966beeaf62.png">
+
+[Hugging face Roberta model](https://huggingface.co/docs/transformers/model_doc/roberta)
+
+#### The technologies I used: 
+* Pandas for data manipulation and analysis, especially for tabular data.
+* NumPy for numerical computing, especially for scientific and mathematical calculations.
+* Vadors model for lexicon-based sentiment analysis tool used to categorize text as positive, neutral, or negative based on a dictionary of words and their associated sentiment scores.
+* Roberta model for transformer-based language model used for natural language processing tasks such as text classification and sentiment analysis.
+* Kaggle  for the datasets, and collaborating with other data scientists.
+* Seaborn for creating attractive and informative statistical graphics.
+
+<img width="1307" alt="image" src="https://user-images.githubusercontent.com/90472022/231914495-bde2666e-de7e-4fb1-be7b-b51a66622325.png">
