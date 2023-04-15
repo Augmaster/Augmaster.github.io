@@ -71,7 +71,9 @@ The goal of this project was to develop a sleep forcasting model to predict futu
 
 
 For the first try I used an XBGRegressor model without much parameter tunning or cross validation and ended up having a score of 0.95113 which led me to 134/142 people participating: https://www.kaggle.com/code/augustinrenard/predict-rob-sleep-time
+
 For the second attempt I reused XBGRegressor model but this time with a little more parameter tunning, a cross validation and a bit more exploratory data analysis and feature development. I ended up finishing 63/142 with a score of 0.67656: https://www.kaggle.com/code/augustinrenard/predict-time-sleep-simple-method
+
 Finaly I used the Facebook famous model Prophet ... 
 
 #### The technologies I used: 
@@ -81,3 +83,13 @@ Finaly I used the Facebook famous model Prophet ...
 * FB Prophet model for predicting future values of a given time series based on historical trends and patterns.
 * Kaggle  for the datasets, and collaborating with other data scientists.
 * Seaborn for creating attractive and informative statistical graphics.
+
+
+
+
+## Certifications
+### [Masterclass Python | Algorithms and data processing](https://www.udemy.com/certificate/UC-da4b6a0e-b31c-419c-8bc1-bb625fdf6845/?utm_medium=email&utm_campaign=email&utm_source=sendgrid.com)
+### [AWS Certified Developer - Associate](https://www.credly.com/badges/696e7ce0-e0e6-4c26-bb31-90e268741af8/public_url)
+### [The web developer bootcamp 2022](https://www.udemy.com/certificate/UC-d3981853-f340-44a6-a414-342c181b024b/)
+### [AWS Certifided Cloud Practionner](https://www.credly.com/badges/5e654fb4-f342-4ebc-a9f5-b0cd9b05eb95/public_url)
+
