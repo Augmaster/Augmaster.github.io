@@ -70,11 +70,11 @@ The goal of this project was to develop a sleep forcasting model to predict futu
 <img width="1081" alt="image" src="https://user-images.githubusercontent.com/90472022/232236997-5b2c7061-20a7-43be-8925-526923ca5419.png">
 
 
-For the first try I used an XBGRegressor model without much parameter tunning or cross validation and ended up having a score of 0.95113 which led me to 134/142 people participating: https://www.kaggle.com/code/augustinrenard/predict-rob-sleep-time
+For the first try I used an XGBRegressor model without much parameter tunning or cross validation and ended up having a score of 0.95113 which led me to 134/142 people participating: https://www.kaggle.com/code/augustinrenard/predict-rob-sleep-time
 
-For the second attempt I reused XBGRegressor model but this time with a little more parameter tunning, a cross validation and a bit more exploratory data analysis and feature development. I ended up finishing 63/142 with a score of 0.67656: https://www.kaggle.com/code/augustinrenard/predict-time-sleep-simple-method
+For the second attempt I reused XBGRegressor model but this time with a little more parameter tunning, a cross validation and a bit more exploratory data analysis and features development. I ended up finishing 63/142 with a score of 0.67656: https://www.kaggle.com/code/augustinrenard/predict-time-sleep-simple-method
 
-Finaly I used the Facebook famous model Prophet ... 
+Finaly I used the Facebook famous model Prophet but the results were not as good as XGBRegressor model. 
 
 #### The technologies I used: 
 * Pandas for data manipulation and analysis, especially for tabular data.
