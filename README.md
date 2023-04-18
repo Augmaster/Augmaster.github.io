@@ -85,6 +85,21 @@ Finaly I used the Facebook famous model Prophet but the results were not as good
 * Seaborn for creating attractive and informative statistical graphics.
 
 
+### [Project 4 - Bitcoin Trend Sentiment Predicter - MACHINE LEARNING](https://github.com/Augmaster/Augmaster.github.io/tree/main/Projects/BitcoinSentimentPredicter)
+#### Overview
+The project is a bitcoin price predictor that utilizes the sentiment analysis of comments made on Wikipedia edits related to bitcoin. The project predicts the trend and popularity of bitcoin for the next day, indicating whether the price will increase or decrease. It uses natural language processing techniques to analyze the sentiment of comments and assess the mood of the community surrounding bitcoin. This information is then used to train a machine learning model that can accurately predict future trends in the bitcoin market. The end result is a tool that can help investors make informed decisions about their investments in bitcoin.
+
+
+
+
+#### The technologies I used: 
+* Pandas for data manipulation and analysis, especially for tabular data.
+* NumPy for numerical computing, especially for scientific and mathematical calculations.
+* XGBRegressor model for predicting continuous numerical values in various fields, such as finance, healthcare, and marketing.
+* Hugging Face Sentiment Pipeline to analyze and understand the sentiment of large volumes of text data, such as social media posts, customer feedback, and product reviews.
+* Mwclient for the datasets from wikipedia
+* Yfinance to get the Bitcoin closing prices
+
 
 
 ## Certifications
