@@ -89,7 +89,11 @@ Finaly I used the Facebook famous model Prophet but the results were not as good
 #### Overview
 The project is a bitcoin price predictor that utilizes the sentiment analysis of comments made on Wikipedia edits related to bitcoin. The project predicts the trend and popularity of bitcoin for the next day, indicating whether the price will increase or decrease. It uses natural language processing techniques to analyze the sentiment of comments and assess the mood of the community surrounding bitcoin. This information is then used to train a machine learning model that can accurately predict future trends in the bitcoin market. The end result is a tool that can help investors make informed decisions about their investments in bitcoin.
 
+![image](https://user-images.githubusercontent.com/90472022/232858325-8eec2680-2452-45d7-a5e6-bcdf21a87d62.png)
 
+I managed to improve the accuracy of the model up to 53% but there is a lot of improvment that can be done such as adding more features from tweets, articles and news that we can scrap online, but also by adding some other financial indicators such as inflation rate, GDP growth rate, etc.
+
+![image](https://user-images.githubusercontent.com/90472022/232859034-e331fbb6-2269-4920-a7f6-82e5a7b8d5b9.png)
 
 
 #### The technologies I used: 
