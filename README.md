@@ -105,6 +105,25 @@ I managed to improve the accuracy of the model up to 53% but there is a lot of i
 * Yfinance to get the Bitcoin closing prices
 
 
+### [Project 5 - Speech Recognition to transcript in multi-languages - NATURAL LANGUAGE PROCESSING](https://github.com/Augmaster/Augmaster.github.io/tree/main/Projects/SpeechRecognitionEmotionAnalyser)
+#### Overview
+This project is based on Natural Language Processing and translation. This tool can efficiently generate transcripts from various sources such as live speeches, YouTube videos, and downloaded video files. With its multi-language support, it can provide accurate translations of different languages, making it an essential tool for translating live events, YouTube videos, classes, and other content that requires fast and detailed transcription. This project has potential to provide an efficient and reliable transcription service and makes it a valuable resource for individuals and organizations looking to reach a global audience.
+
+This project is still on going and here is a road-map for the development:
+- Add live speech recogntion
+- Integrate a GUI from customtkinter
+- Integrate in the GUI a way of chaning modes (youtube, live speach, downloaded video)
+- In the GUI add features to change languages, modes, interfaces and themes
+- Good feature could be to analyse the sentences sentiment and do an estimation of the total speech emotion score
+
+#### The technologies I used: 
+* Nltk to tokenize the transcript
+* Pandas for data manipulation and analysis, especially for tabular data.
+* NumPy for numerical computing, especially for scientific and mathematical calculations.
+* Assenbly AI for the online transcription through the API
+* GoogleTranslator library for the fast translation using google's API
+* Pytube for downloading youtube videos
+
 
 ## Certifications
 ### [Masterclass Python | Algorithms and data processing](https://www.udemy.com/certificate/UC-da4b6a0e-b31c-419c-8bc1-bb625fdf6845/?utm_medium=email&utm_campaign=email&utm_source=sendgrid.com)
