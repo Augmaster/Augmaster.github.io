@@ -1,4 +1,4 @@
-# Software Engineer / Devops Engineer Portfolio
+## Presentation
 My name is Augustin Renard, I am a skilled Data Scientist and Data Engineer with a clear aspiration to transition into the role of a Software DevOps Engineer. My professional journey has equipped me with a diverse skill set that spans backend development in Python, Docker, and Airflow, to front-end expertise in JavaScript, Vue.js, and Bootstrap. I possess a strong analytical mindset and have excelled in computer vision technologies like OpenCV and Mediapipe. My academic background includes a Bachelor's degree in Information Technology from HEC Montreal, supplemented by certificates in Data Science and Statistics from HarvardX and AWS certifications.
 
 In my professional experience, I have thrived as a Data Scientist and Data Engineer at Bell Canada, where I harnessed Docker, Python, and machine learning to automate and optimize data processing tasks, significantly reducing processing times. My tenure as a Full Stack Web Developer at Services iNSiTU inc showcased my proficiency in streamlining business operations and designing robust architectures, while my experience as a Junior Python Developer at DNEG Montreal allowed me to lead Python version migrations and provide technical support to colleagues. With a passion for technology and a strong foundation in software development and data engineering, I am poised to excel in the role of a Software DevOps Engineer, driving innovation and efficiency in software development processes.
@@ -29,6 +29,19 @@ In my professional experience, I have thrived as a Data Scientist and Data Engin
 - Team work and management
 
 ## Projects
+
+### [Project - Wordpress Deployment -  KUBERNETES](https://github.com/Augmaster/Augmaster.github.io/tree/main/Projects/MiniProject-Docker)
+#### Overview
+In my recent DevOps training project, I successfully deployed a WordPress website on Kubernetes following a structured approach. The process involved creating a reliable MySQL deployment with a single replica and setting up a ClusterIP service to expose the MySQL pods internally. For the WordPress deployment, I configured the necessary environment variables to establish a connection with the MySQL database. To ensure data persistence, I implemented volume mounting. Additionally, I created a NodePort service to expose the WordPress frontend externally, enabling seamless user access.
+
+#### The technologies I used: 
+* Kubernetes (K8s): Orchestrated the deployment, scaling, and management of containers.
+* MySQL: Utilized for the database backend of the WordPress website.
+* Persistent Volumes (PV): Implemented to ensure data persistence across pod restarts.
+* Deployment YAML: Defined configurations for MySQL and WordPress deployments.
+* Service YAML: Configured ClusterIP service for MySQL and NodePort service for WordPress frontend access.
+
+![Kubernetes](image-1.png)
 
 ### [Project - Student List App Deployment -  DOCKER](https://github.com/Augmaster/Augmaster.github.io/tree/main/Projects/MiniProject-Docker)
 #### Overview
