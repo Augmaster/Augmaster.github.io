@@ -1,7 +1,15 @@
 ## Presentation
-I am Augustin Renard, a seasoned Data Scientist and Data Engineer driven by a clear aspiration to transition into the role of a Software DevOps Engineer. With a robust skill set spanning backend development in Python, Docker, and Airflow, coupled with front-end expertise in JavaScript, Vue.js, and Bootstrap, I am well-equipped to navigate the complexities of modern software development. My academic journey includes a Bachelor's degree in Information Technology from HEC Montreal, supplemented by certifications in Data Science and Statistics from HarvardX, and AWS certifications.
+Hello! I'm Augustin Renard, a Data Scientist/Data Engineer from Montreal, soon based in Edinburgh. With a BBA in Information Technology from HEC Montreal, I'm passionate about harnessing data and cutting-edge technologies to drive impactful insights.
 
-Throughout my professional tenure, I've thrived in dynamic environments, notably at Bell Canada, where I leveraged Docker, Python, and machine learning to automate and optimize data processing tasks, significantly reducing processing times. My experience as a Full Stack Web Developer at Services iNSiTU inc showcased my adeptness in streamlining business operations and designing robust architectures. With a fervent passion for technology and a solid foundation in software development and data engineering, I am poised to excel in the role of a Software DevOps Engineer, where I aim to drive innovation and efficiency in software development processes.
+At Bell Canada, I revolutionized ETL processes using Docker, reducing processing time from 150 hours to 7 minutes. My skills span Python, Docker, Airflow, SQL, and frontend technologies like HTML, CSS, and Vue.js. I'm adept at analytics tools like Pandas, Numpy and Excel.
+
+In roles like Full Stack Web Developer at Services iNSiTU inc and Webmaster Intern at Station Mont Tremblant, I honed my data analysis skills. Projects like Bitcoin price prediction and emotion detection in wine reviews demonstrate my ability to extract meaningful insights from data.
+
+I've also developed machine learning models for projects such as Bitcoin price prediction using XGBoost, ARIMA, and FB Prophet. In the realm of computer vision, I've implemented a Wireless Hand Volume Controller using OpenCV and Mediapipe, showcasing my expertise in this exciting field.
+
+I hold certifications from HarvardX, AWS, and Udemy, covering key areas like TinyML, DevOps and implementing Machine Learning solution on daily problems. As a Teaching Assistant at HEC Montreal, I've supported students in their data science journey.
+
+Fluent in French and English, I thrive in multicultural settings and excel in collaborative, data-driven environments. I'm eager to bring my analytical mindset and technical expertise in machine learning and computer vision to a Data Scientist role.
 
 ## Education
 ### [HarvardX (EdX) - CS109x: Introduction to Data Science with Python](https://www.harvardonline.harvard.edu/course/introduction-data-science-python)
