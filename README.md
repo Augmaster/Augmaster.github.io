@@ -40,10 +40,13 @@ Fluent in French and English, I thrive in multicultural settings and excel in co
 
 ### [Project - Computer Vision Interactive Map -  OPENCV](https://github.com/Augmaster/Augmaster.github.io/tree/main/Projects/interactive_map)
 #### Overview
-![Webcam map](map.png)
+![map](https://github.com/Augmaster/Augmaster.github.io/assets/90472022/bea00a89-1029-44b8-9dae-c2bd9f1c4c0b)
+
 The Interactive Computer Vision Map project is an innovative application that leverages computer vision techniques to create an interactive map interface. Users can explore geographical regions by interacting with the map using hand gestures captured through a webcam. The project enables real-time manipulation of map elements, providing a unique and engaging user experience.
-![Interaction with the map](map_interactive.png)
-![Data returned from interaction](data.png)
+![map_interactive](https://github.com/Augmaster/Augmaster.github.io/assets/90472022/b9e471d1-be40-4565-9b0b-302a65c0bf86)
+![data](https://github.com/Augmaster/Augmaster.github.io/assets/90472022/9f5778fe-c62d-4e63-b5d2-d536e03bc5ae)
+
+
 #### The technologies I used: 
 
 * OpenCV: Used for processing webcam input and detecting hand gestures.
