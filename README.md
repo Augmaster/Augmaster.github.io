@@ -38,6 +38,22 @@ Fluent in French and English, I thrive in multicultural settings and excel in co
 
 ## Projects
 
+### [Project - Computer Vision Interactive Map -  OPENCV](https://github.com/Augmaster/Augmaster.github.io/tree/main/Projects/interactive_map)
+#### Overview
+![Webcam map](map.png)
+The Interactive Computer Vision Map project is an innovative application that leverages computer vision techniques to create an interactive map interface. Users can explore geographical regions by interacting with the map using hand gestures captured through a webcam. The project enables real-time manipulation of map elements, providing a unique and engaging user experience.
+![Interaction with the map](map_interactive.png)
+![Data returned from interaction](data.png)
+#### The technologies I used: 
+
+* OpenCV: Used for processing webcam input and detecting hand gestures.
+* cvzone: Integrated for hand tracking capabilities.
+* NumPy: Employed for numerical operations and data manipulation.
+* MetaAI: Utilized for obtaining information about selected countries.
+* Python Pickle: Employed for serializing Python objects.
+* Matplotlib: Potential use for data visualization.
+* cv2: OpenCV library for various computer vision tasks.
+
 ### [Project - Wordpress Deployment -  KUBERNETES](https://github.com/Augmaster/Augmaster.github.io/tree/main/Projects/MiniProject-Docker)
 #### Overview
 In my recent DevOps training project, I successfully deployed a WordPress website on Kubernetes following a structured approach. The process involved creating a reliable MySQL deployment with a single replica and setting up a ClusterIP service to expose the MySQL pods internally. For the WordPress deployment, I configured the necessary environment variables to establish a connection with the MySQL database. To ensure data persistence, I implemented volume mounting. Additionally, I created a NodePort service to expose the WordPress frontend externally, enabling seamless user access.
