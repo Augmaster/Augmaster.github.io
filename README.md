@@ -12,6 +12,18 @@ I hold certifications from HarvardX, AWS, and Udemy, covering key areas like Tin
 Fluent in French and English, I thrive in multicultural settings and excel in collaborative, data-driven environments. I'm eager to bring my analytical mindset and technical expertise in machine learning and computer vision to a Data Scientist role.
 
 ## Education
+
+### [Msc Software Systems](https://www.hw.ac.uk/study/postgraduate/information-technology-software-systems.htm)
+#### Grade: on-going
+#### Course Outline:
+- Database and Informations Systems
+- Advanced Software Engineering
+- Computer Network Security
+- Intelligent Robotics
+- Computer Games Programming
+- Software Engineering Foundations
+- Advanced Human Computer Interaction
+
 ### [HarvardX (EdX) - CS109x: Introduction to Data Science with Python](https://www.harvardonline.harvard.edu/course/introduction-data-science-python)
 #### Grade: 100% - A
 #### Course Outline:
